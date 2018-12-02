@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
+.featured-img {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    -webkit-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+    -webkit-backface-visibility: hidden;
+}
+
+.featured-img a {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    left: 0;
+    background: #fff;
+    opacity: .7;
+    padding: 15px 0;
+    font-size: 12px;
+    -webkit-transition: opacity 100ms ease-out;
+    transition: opacity 100ms ease-out;
+}
+
+.featured-img a:hover {
+    opacity: .9;
+}
+
+.gallery-cover {
+    background: #FFF;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.gallery-detail{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 95%;
+    padding-left:15px;
+    z-index: 9;
+    -ms-transform: translateY(-95%);
+    -moz-transform: translateY(-95%);
+    -webkit-transform: translateY(-95%);
+    transform: translateY(-95%);
+}
+
+.gallery-detail h2 {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.125em;
+    font-size: 70px;
+    display: inline-block;
+    word-wrap: break-word;
+    font-weight: 600;
+    margin:0px;
+}
+
+.gallery-detail h3 {
+    font-family: 'Marck Script', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.125em;
+    font-size: 30px !important;
+    display: inline-block;
+    word-wrap: break-word;
+    font-weight: 400;
+}
+
+.gallery-buttons {
+    position: absolute;
+    font-size: 10pt;
+    opacity: .6;
+    line-height: normal;
+    margin: 4px;
+}
+
+.gallery-buttons i {
+    cursor: pointer;
+}
+.gallery-buttons i.featured {
+    color: blue;
+}
+
+.card-100{
+    height: calc(100% - 20px);
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+ .StripeElement {
+    background-color: white;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+  }
+  
+  .StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .StripeElement--invalid {
+    border-color: #fa755a;
+  }
+  
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+  }
+
+.fileinput .thumbnail {
+    max-width: 126px !important;
+}
+
+h4.card-title {
+    margin-top:0px !important;
+}
+
+.logo-profile {
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.branding-thumbnail {
+    height: 95px;
+    width: 126px;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column;
+}
+
+.branding-thumbnail img {
+    align-self: center;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.full-page.section-image:after {
+    background-color: white !important; 
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+
+.main-panel {
+    min-height: 100vh;
+}
+
+/* -------------------------------- 
+Slide In Panel - by CodyHouse.co
+-------------------------------- */
+.cd-main-content {
+    text-align: center;
+  }
+  
+  .cd-btn {
+    position: relative;
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #89ba2c;
+    color: #ffffff;
+    border-radius: 50em;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 5px rgba(0, 0, 0, 0.1);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 5px rgba(0, 0, 0, 0.1);
+    -webkit-transition: -webkit-box-shadow 0.2s;
+    transition: -webkit-box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+  }
+  
+  .cd-btn:hover {
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  @media only screen and (min-width: 1170px) {
+    .cd-main-content h1 {
+      font-size: 3.2rem;
+    }
+  }
+  
+  .cd-panel {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    -webkit-transition: visibility 0s 0.6s;
+    transition: visibility 0s 0.6s;
+  }
+  
+  .cd-panel::after {
+    /* overlay layer */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+    -webkit-transition: background 0.3s 0.3s;
+    transition: background 0.3s 0.3s;
+  }
+  
+  .cd-panel.cd-panel--is-visible {
+    visibility: visible;
+    -webkit-transition: visibility 0s 0s;
+    transition: visibility 0s 0s;
+  }
+  
+  .cd-panel.cd-panel--is-visible::after {
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: background 0.3s 0s;
+    transition: background 0.3s 0s;
+  }
+  
+  .cd-panel__header {
+    position: fixed;
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    z-index: 2;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    -webkit-transition: -webkit-transform 0.3s 0s;
+    transition: -webkit-transform 0.3s 0s;
+    transition: transform 0.3s 0s;
+    transition: transform 0.3s 0s, -webkit-transform 0.3s 0s;
+    -webkit-transform: translateY(-50px);
+        -ms-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+  
+  .cd-panel__header h1 {
+    color: #66615B;
+    text-align: center;
+    padding-left: 5%;
+  }
+  
+  .cd-panel--from-right .cd-panel__header {
+    right: 0;
+  }
+  
+  .cd-panel--from-left .cd-panel__header {
+    left: 0;
+  }
+  
+  .cd-panel--is-visible .cd-panel__header {
+    -webkit-transition: -webkit-transform 0.3s 0.3s;
+    transition: -webkit-transform 0.3s 0.3s;
+    transition: transform 0.3s 0.3s;
+    transition: transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+    -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .cd-panel__header {
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (min-width: 1170px) {
+    .cd-panel__header {
+      width: 50%;
+    }
+  }
+  
+  .cd-panel__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60px;
+    /* image replacement */
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+  
+  .cd-panel__close::before, .cd-panel__close::after {
+    /* close icon created in CSS */
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    height: 3px;
+    width: 20px;
+    background-color: #424f5c;
+    /* this fixes a bug where pseudo elements are slighty off position */
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+  
+  .cd-panel__close::before {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+  .cd-panel__close::after {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  
+  .cd-panel__close:hover {
+    background-color: #424f5c;
+  }
+  
+  .cd-panel__close:hover::before, .cd-panel__close:hover::after {
+    background-color: #ffffff;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  
+  .cd-panel__close:hover::before {
+    -webkit-transform: rotate(220deg);
+        -ms-transform: rotate(220deg);
+            transform: rotate(220deg);
+  }
+  
+  .cd-panel__close:hover::after {
+    -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  
+  .cd-panel--is-visible .cd-panel__close::before {
+    -webkit-animation: cd-close-1 0.6s 0.3s;
+            animation: cd-close-1 0.6s 0.3s;
+  }
+  
+  .cd-panel--is-visible .cd-panel__close::after {
+    -webkit-animation: cd-close-2 0.6s 0.3s;
+            animation: cd-close-2 0.6s 0.3s;
+  }
+  
+  @-webkit-keyframes cd-close-1 {
+    0%, 50% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+    }
+  }
+  
+  @keyframes cd-close-1 {
+    0%, 50% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+    }
+  }
+  
+  @-webkit-keyframes cd-close-2 {
+    0%, 50% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+    }
+  }
+  
+  @keyframes cd-close-2 {
+    0%, 50% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+    }
+  }
+  
+  .cd-panel__container {
+    position: fixed;
+    width: 90%;
+    height: 100%;
+    top: 0;
+    background: white;
+    z-index: 1;
+    -webkit-transition: -webkit-transform 0.3s 0.3s;
+    transition: -webkit-transform 0.3s 0.3s;
+    transition: transform 0.3s 0.3s;
+    transition: transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+  }
+  
+  .cd-panel--from-right .cd-panel__container {
+    right: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  
+  .cd-panel--from-left .cd-panel__container {
+    left: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+  
+  .cd-panel--is-visible .cd-panel__container {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .cd-panel__container {
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (min-width: 1170px) {
+    .cd-panel__container {
+      width: 50%;
+    }
+  }
+  
+  .cd-panel__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 70px 5%;
+    overflow: auto;
+    /* smooth scrolling on touch devices */
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .cd-panel__content p {
+    font-size: 1.4rem;
+    color: #424f5c;
+    line-height: 1.4;
+    margin: 2em 0;
+  }
+  
+  .cd-panel__content p:first-of-type {
+    margin-top: 0;
+  }
+
+  #panel-img{
+      max-width: 250px;
+      max-height: 170px;
+  }
+
+  #panel-img-lg{
+    max-width: 550px;
+    max-height: 470px;
+}
+  
+  @media only screen and (min-width: 768px) {
+    .cd-panel__content p {
+      font-size: 1.6rem;
+      line-height: 1.6;
+    }
+  }
+
+  .panel-items {
+      margin-top: 20px;
+  }
+
+  .table-shopping .td-name {
+    font-size: 1em !important;
+    text-align: left !important;
+}
+
+.product-row:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.detail-row:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+

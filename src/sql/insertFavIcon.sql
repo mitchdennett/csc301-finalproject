@@ -1,0 +1,1 @@
+UPDATE final_customers SET favicon = :favicon WHERE customerid = :customerid

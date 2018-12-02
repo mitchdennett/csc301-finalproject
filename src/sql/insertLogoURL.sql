@@ -1,0 +1,1 @@
+UPDATE final_customers SET logo = :logo WHERE customerid = :customerid
